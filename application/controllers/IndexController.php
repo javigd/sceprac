@@ -10,8 +10,14 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        $form = new Application_Form_Register();
-        $this->view->form = $form;
+        $register = new Application_Model_Register();
+        $register->createUser(array(
+            'username'      => 'Maximiliano',
+            'password'  => 'maxi'
+        ));
+        
+        //$form = new Application_Form_Register();
+        //$this->view->form = $form;
     }
 
 
