@@ -39,7 +39,7 @@ textarea { overflow: auto; }
 .top-nav ul li.nobg { border-right: 0; }
 .top-nav ul li.first { padding-left: 2px; }
 .top-nav ul li a { float: left; color: #aee4ff; }
-.top-nav ul li a.bag { background: url(images/bag.png) no-repeat right 0; height: 26px; padding: 10px 38px 0 0; position: relative; margin-top: -10px; }
+.top-nav ul li a.bag { background: url(images/auctionwhite.png) no-repeat right 0; height: 26px; padding: 10px 38px 0 0; position: relative; margin-top: -10px; }
 
 #search { float: right; display: inline; background: url(images/search-bg.png) no-repeat 0 0; width: 120px; height: 15px; padding: 7px 35px 6px 15px; }
 #search input.field { line-height: 15px; background: transparent; border: 0; color: #ffffff; font-family: Georgia, serif; font-style: italic; width: 120px; }
