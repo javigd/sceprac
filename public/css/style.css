@@ -39,19 +39,19 @@ textarea { overflow: auto; }
 .top-nav ul li.nobg { border-right: 0; }
 .top-nav ul li.first { padding-left: 2px; }
 .top-nav ul li a { float: left; color: #aee4ff; }
-.top-nav ul li a.bag { background: url(images/auctionwhite.png) no-repeat right 0; height: 26px; padding: 10px 38px 0 0; position: relative; margin-top: -10px; }
+.top-nav ul li a.bag { background: url(images/auction.png) no-repeat right 0; height: 26px; padding: 10px 25px 0 0; position: relative; margin-top: -10px; }
 
 #search { float: right; display: inline; background: url(images/search-bg.png) no-repeat 0 0; width: 120px; height: 15px; padding: 7px 35px 6px 15px; }
 #search input.field { line-height: 15px; background: transparent; border: 0; color: #ffffff; font-family: Georgia, serif; font-style: italic; width: 120px; }
 
-#main { padding: 0 0 60px 0; background: url(images/main-bg.png) repeat-x 0 bottom; }
+#main { padding: 30 0 0px 0; background: url(images/main-bg.png) repeat-x 0 bottom; }
 
-#header { padding: 22px 0 17px 0; }
-h1#logo { width: 298px; float: left; display: inline; }
-h1#logo a { display: block; background: url(images/logo.png) no-repeat 0 0; height: 63px; }
+#header { padding: 0px 0 17px 0; }
+h1#logo { width: 320px; float: left; display: inline; }
+h1#logo a { display: block; background: url(images/logo.png) no-repeat 0 0; height: 68px; }
 
-#navigation { padding: 3px 2px 0 0; float: right; display: inline; }
-#navigation ul li { float: left; display: inline; line-height: 45px; font-size: 18px; font-family: Georgia, serif; padding: 0 0 0 5px; }
+#navigation { padding: 30px 2px 0 0; float: right; display: inline; }
+#navigation ul li { float: left; display: inline; line-height: 45px; font-size: 18px; font-family: Georgia, serif; padding: 0 0 0 5px; border-right: solid 1px #000;}
 #navigation li a { color: #000; letter-spacing: -1px; }
 #navigation ul li a,
 #navigation li a span { float: left; display: inline; height: 45px; padding: 0 0 0 26px; }
